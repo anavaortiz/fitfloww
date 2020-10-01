@@ -1,0 +1,554 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/manny/Fitness_Counter/android/app/src/main/AndroidManifest.xml:1:1-33:12
+INJECTED from /home/manny/Fitness_Counter/android/app/src/main/AndroidManifest.xml:1:1-33:12
+INJECTED from /home/manny/Fitness_Counter/android/app/src/main/AndroidManifest.xml:1:1-33:12
+INJECTED from /home/manny/Fitness_Counter/android/app/src/main/AndroidManifest.xml:1:1-33:12
+MERGED from /home/manny/Fitness_Counter/android/app/src/main/AndroidManifest.xml:1:1-33:12
+MERGED from [:firebase_storage] /home/manny/Fitness_Counter/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:flutter_tts] /home/manny/Fitness_Counter/build/flutter_tts/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:tflite] /home/manny/Fitness_Counter/build/tflite/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:camera] /home/manny/Fitness_Counter/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-10:12
+MERGED from [:cloud_firestore] /home/manny/Fitness_Counter/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:shared_preferences] /home/manny/Fitness_Counter/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:image_picker] /home/manny/Fitness_Counter/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-22:12
+MERGED from [:firebase_auth] /home/manny/Fitness_Counter/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_core] /home/manny/Fitness_Counter/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [com.google.firebase:firebase-core:16.0.9] /home/manny/.gradle/caches/transforms-2/files-2.1/477db73bc9e2d61dfc1fcb4cbc0960d6/jetified-firebase-core-16.0.9/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-analytics:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/772d715f787f9489f1ba51d302d4d6ed/jetified-firebase-analytics-17.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-auth:19.1.0] /home/manny/.gradle/caches/transforms-2/files-2.1/7becfd90ea784f1f3978851fa86ba8b0/jetified-firebase-auth-19.1.0/AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.firebase:firebase-firestore:21.1.1] /home/manny/.gradle/caches/transforms-2/files-2.1/ca151ccf3611fb335aa617ee53c36a69/jetified-firebase-firestore-21.1.1/AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.firebase:firebase-storage:17.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/50b06f67dc82bbf4a9c53c764ac0f5ca/jetified-firebase-storage-17.0.0/AndroidManifest.xml:15:1-37:12
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/9693c7d8fd133d3bcfc5c1c6c9cf2fa6/jetified-firebase-auth-interop-18.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/2514f5d9d1c5b508f57e9d6151bba06f/jetified-play-services-measurement-api-17.2.0/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/97f103996ce5e1292e3e483096399963/jetified-firebase-iid-19.0.0/AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/3840d27ff2141a01ea6fee85399ab31b/jetified-firebase-iid-interop-17.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/manny/.gradle/caches/transforms-2/files-2.1/5840b6039b1536d6590cf6be0bd78929/jetified-play-services-base-17.1.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/9db386b1a2a2209ff7be9c6cc5a2652e/jetified-play-services-measurement-17.2.0/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/cd3ac01083e50bf9780b6933466381e9/jetified-play-services-measurement-sdk-17.2.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-common:19.1.0] /home/manny/.gradle/caches/transforms-2/files-2.1/7bb90ac2970290836e21fd40b5e99f37/jetified-firebase-common-19.1.0/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/183775cc7d6635ee23e3c3483ed7c74f/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/c5625856de3f5d73d5941044b228c99e/jetified-play-services-measurement-impl-17.2.0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/9f2228e95b3f4ec6013479e5d007febb/jetified-play-services-measurement-sdk-api-17.2.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/bc2391d085370fb6e6d1364888347796/jetified-play-services-measurement-base-17.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/70a58345584e6bdfff9ea93515ed1d66/jetified-play-services-stats-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/00e46e8e5f87d897a696a86811129013/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/7795527ad41381165d3c9420edaeba52/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/167339e2ba02c9c5a0daa81c8e80f41b/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.1.0] /home/manny/.gradle/caches/transforms-2/files-2.1/bac315487d01089f44432578692c28d4/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/11a7becc5f336af19d396af6081a0386/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/f1be59ab51e8ba3fe8888016394c7572/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/f86b433f93a2ebef8723340897840530/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/c5113ad925ec73a1f11707b007fc98d7/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/580a15bf503a8397e40a265464f43858/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.2] /home/manny/.gradle/caches/transforms-2/files-2.1/db5a00aa6030abe9341262404fc79860/core-1.0.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/e1ebdc9c32d8a739204cfc07136f38b8/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/22824d09d2b52bc37a903c06e63daf51/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/9e1bb22658d342cfc5c04af1753c8404/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/c1fc29ce20e532a0694cf2e2540875cd/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/2581817fba38f3792bd4b202966ec6c9/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/aa2d82512c6c408b584ed6b6bae25026/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/512cf769ae2eda5dd1870e92aba695df/versionedparcelable-1.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/manny/.gradle/caches/transforms-2/files-2.1/b7082ad32ecae58030f165488b16c053/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/38c074a38e6839c99369d5f5602a7562/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/fe874501aaaec783c96730efda62c93b/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/19450daaf9d04f67a67a81fa89861c97/jetified-firebase-database-collection-17.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/c2415055e31cae6a1cedde111c52e6b0/jetified-protolite-well-known-types-17.0.0/AndroidManifest.xml:2:1-11:12
+MERGED from [io.grpc:grpc-android:1.21.0] /home/manny/.gradle/caches/transforms-2/files-2.1/1451e179d70836c8c0a0703471d9e8c3/jetified-grpc-android-1.21.0/AndroidManifest.xml:2:1-13:12
+MERGED from [org.tensorflow:tensorflow-lite:2.3.0] /home/manny/.gradle/caches/transforms-2/files-2.1/2f3dd7b5869db6f54941a961a9ba1290/jetified-tensorflow-lite-2.3.0/AndroidManifest.xml:2:1-12:12
+INJECTED from /home/manny/Fitness_Counter/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /home/manny/Fitness_Counter/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /home/manny/Fitness_Counter/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+	package
+		ADDED from /home/manny/Fitness_Counter/android/app/src/main/AndroidManifest.xml:2:5-34
+		INJECTED from /home/manny/Fitness_Counter/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/manny/Fitness_Counter/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/manny/Fitness_Counter/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/manny/Fitness_Counter/android/app/src/main/AndroidManifest.xml:1:1-33:12
+		INJECTED from /home/manny/Fitness_Counter/android/app/src/debug/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/manny/Fitness_Counter/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/manny/Fitness_Counter/android/app/src/main/AndroidManifest.xml:1:1-33:12
+		INJECTED from /home/manny/Fitness_Counter/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/manny/Fitness_Counter/android/app/src/main/AndroidManifest.xml:1:11-69
+application
+ADDED from /home/manny/Fitness_Counter/android/app/src/main/AndroidManifest.xml:9:5-32:19
+MERGED from [:firebase_storage] /home/manny/Fitness_Counter/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_storage] /home/manny/Fitness_Counter/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:cloud_firestore] /home/manny/Fitness_Counter/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:cloud_firestore] /home/manny/Fitness_Counter/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:image_picker] /home/manny/Fitness_Counter/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-20:19
+MERGED from [:image_picker] /home/manny/Fitness_Counter/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-20:19
+MERGED from [:firebase_auth] /home/manny/Fitness_Counter/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_auth] /home/manny/Fitness_Counter/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /home/manny/Fitness_Counter/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /home/manny/Fitness_Counter/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.firebase:firebase-core:16.0.9] /home/manny/.gradle/caches/transforms-2/files-2.1/477db73bc9e2d61dfc1fcb4cbc0960d6/jetified-firebase-core-16.0.9/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.9] /home/manny/.gradle/caches/transforms-2/files-2.1/477db73bc9e2d61dfc1fcb4cbc0960d6/jetified-firebase-core-16.0.9/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/772d715f787f9489f1ba51d302d4d6ed/jetified-firebase-analytics-17.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/772d715f787f9489f1ba51d302d4d6ed/jetified-firebase-analytics-17.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-auth:19.1.0] /home/manny/.gradle/caches/transforms-2/files-2.1/7becfd90ea784f1f3978851fa86ba8b0/jetified-firebase-auth-19.1.0/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:19.1.0] /home/manny/.gradle/caches/transforms-2/files-2.1/7becfd90ea784f1f3978851fa86ba8b0/jetified-firebase-auth-19.1.0/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-firestore:21.1.1] /home/manny/.gradle/caches/transforms-2/files-2.1/ca151ccf3611fb335aa617ee53c36a69/jetified-firebase-firestore-21.1.1/AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:21.1.1] /home/manny/.gradle/caches/transforms-2/files-2.1/ca151ccf3611fb335aa617ee53c36a69/jetified-firebase-firestore-21.1.1/AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-storage:17.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/50b06f67dc82bbf4a9c53c764ac0f5ca/jetified-firebase-storage-17.0.0/AndroidManifest.xml:29:5-35:19
+MERGED from [com.google.firebase:firebase-storage:17.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/50b06f67dc82bbf4a9c53c764ac0f5ca/jetified-firebase-storage-17.0.0/AndroidManifest.xml:29:5-35:19
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/9693c7d8fd133d3bcfc5c1c6c9cf2fa6/jetified-firebase-auth-interop-18.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/9693c7d8fd133d3bcfc5c1c6c9cf2fa6/jetified-firebase-auth-interop-18.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/2514f5d9d1c5b508f57e9d6151bba06f/jetified-play-services-measurement-api-17.2.0/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/2514f5d9d1c5b508f57e9d6151bba06f/jetified-play-services-measurement-api-17.2.0/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/97f103996ce5e1292e3e483096399963/jetified-firebase-iid-19.0.0/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/97f103996ce5e1292e3e483096399963/jetified-firebase-iid-19.0.0/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/3840d27ff2141a01ea6fee85399ab31b/jetified-firebase-iid-interop-17.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/3840d27ff2141a01ea6fee85399ab31b/jetified-firebase-iid-interop-17.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/manny/.gradle/caches/transforms-2/files-2.1/5840b6039b1536d6590cf6be0bd78929/jetified-play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/manny/.gradle/caches/transforms-2/files-2.1/5840b6039b1536d6590cf6be0bd78929/jetified-play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/9db386b1a2a2209ff7be9c6cc5a2652e/jetified-play-services-measurement-17.2.0/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/9db386b1a2a2209ff7be9c6cc5a2652e/jetified-play-services-measurement-17.2.0/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/cd3ac01083e50bf9780b6933466381e9/jetified-play-services-measurement-sdk-17.2.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/cd3ac01083e50bf9780b6933466381e9/jetified-play-services-measurement-sdk-17.2.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-common:19.1.0] /home/manny/.gradle/caches/transforms-2/files-2.1/7bb90ac2970290836e21fd40b5e99f37/jetified-firebase-common-19.1.0/AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-common:19.1.0] /home/manny/.gradle/caches/transforms-2/files-2.1/7bb90ac2970290836e21fd40b5e99f37/jetified-firebase-common-19.1.0/AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/183775cc7d6635ee23e3c3483ed7c74f/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/183775cc7d6635ee23e3c3483ed7c74f/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/c5625856de3f5d73d5941044b228c99e/jetified-play-services-measurement-impl-17.2.0/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/c5625856de3f5d73d5941044b228c99e/jetified-play-services-measurement-impl-17.2.0/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/bc2391d085370fb6e6d1364888347796/jetified-play-services-measurement-base-17.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/bc2391d085370fb6e6d1364888347796/jetified-play-services-measurement-base-17.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/70a58345584e6bdfff9ea93515ed1d66/jetified-play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/70a58345584e6bdfff9ea93515ed1d66/jetified-play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/00e46e8e5f87d897a696a86811129013/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/00e46e8e5f87d897a696a86811129013/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/7795527ad41381165d3c9420edaeba52/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/7795527ad41381165d3c9420edaeba52/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/167339e2ba02c9c5a0daa81c8e80f41b/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/167339e2ba02c9c5a0daa81c8e80f41b/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.0.2] /home/manny/.gradle/caches/transforms-2/files-2.1/db5a00aa6030abe9341262404fc79860/core-1.0.2/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.2] /home/manny/.gradle/caches/transforms-2/files-2.1/db5a00aa6030abe9341262404fc79860/core-1.0.2/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/512cf769ae2eda5dd1870e92aba695df/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/512cf769ae2eda5dd1870e92aba695df/versionedparcelable-1.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [org.tensorflow:tensorflow-lite:2.3.0] /home/manny/.gradle/caches/transforms-2/files-2.1/2f3dd7b5869db6f54941a961a9ba1290/jetified-tensorflow-lite-2.3.0/AndroidManifest.xml:10:5-20
+MERGED from [org.tensorflow:tensorflow-lite:2.3.0] /home/manny/.gradle/caches/transforms-2/files-2.1/2f3dd7b5869db6f54941a961a9ba1290/jetified-tensorflow-lite-2.3.0/AndroidManifest.xml:10:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.2] /home/manny/.gradle/caches/transforms-2/files-2.1/db5a00aa6030abe9341262404fc79860/core-1.0.2/AndroidManifest.xml:22:18-86
+	android:label
+		ADDED from /home/manny/Fitness_Counter/android/app/src/main/AndroidManifest.xml:11:9-32
+	android:icon
+		ADDED from /home/manny/Fitness_Counter/android/app/src/main/AndroidManifest.xml:12:9-43
+	android:name
+		ADDED from /home/manny/Fitness_Counter/android/app/src/main/AndroidManifest.xml:10:9-57
+activity#com.example.fitflow.MainActivity
+ADDED from /home/manny/Fitness_Counter/android/app/src/main/AndroidManifest.xml:13:9-31:20
+	android:launchMode
+		ADDED from /home/manny/Fitness_Counter/android/app/src/main/AndroidManifest.xml:15:13-43
+	android:hardwareAccelerated
+		ADDED from /home/manny/Fitness_Counter/android/app/src/main/AndroidManifest.xml:18:13-47
+	android:windowSoftInputMode
+		ADDED from /home/manny/Fitness_Counter/android/app/src/main/AndroidManifest.xml:19:13-55
+	android:configChanges
+		ADDED from /home/manny/Fitness_Counter/android/app/src/main/AndroidManifest.xml:17:13-144
+	android:theme
+		ADDED from /home/manny/Fitness_Counter/android/app/src/main/AndroidManifest.xml:16:13-47
+	android:name
+		ADDED from /home/manny/Fitness_Counter/android/app/src/main/AndroidManifest.xml:14:13-41
+meta-data#io.flutter.app.android.SplashScreenUntilFirstFrame
+ADDED from /home/manny/Fitness_Counter/android/app/src/main/AndroidManifest.xml:24:13-26:40
+	android:value
+		ADDED from /home/manny/Fitness_Counter/android/app/src/main/AndroidManifest.xml:26:17-37
+	android:name
+		ADDED from /home/manny/Fitness_Counter/android/app/src/main/AndroidManifest.xml:25:17-82
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/manny/Fitness_Counter/android/app/src/main/AndroidManifest.xml:27:13-30:29
+action#android.intent.action.MAIN
+ADDED from /home/manny/Fitness_Counter/android/app/src/main/AndroidManifest.xml:28:17-68
+	android:name
+		ADDED from /home/manny/Fitness_Counter/android/app/src/main/AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/manny/Fitness_Counter/android/app/src/main/AndroidManifest.xml:29:17-76
+	android:name
+		ADDED from /home/manny/Fitness_Counter/android/app/src/main/AndroidManifest.xml:29:27-74
+uses-sdk
+INJECTED from /home/manny/Fitness_Counter/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/manny/Fitness_Counter/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/manny/Fitness_Counter/android/app/src/main/AndroidManifest.xml
+MERGED from [:firebase_storage] /home/manny/Fitness_Counter/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_storage] /home/manny/Fitness_Counter/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_tts] /home/manny/Fitness_Counter/build/flutter_tts/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_tts] /home/manny/Fitness_Counter/build/flutter_tts/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:tflite] /home/manny/Fitness_Counter/build/tflite/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:tflite] /home/manny/Fitness_Counter/build/tflite/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:camera] /home/manny/Fitness_Counter/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:camera] /home/manny/Fitness_Counter/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] /home/manny/Fitness_Counter/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] /home/manny/Fitness_Counter/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] /home/manny/Fitness_Counter/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] /home/manny/Fitness_Counter/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] /home/manny/Fitness_Counter/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] /home/manny/Fitness_Counter/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth] /home/manny/Fitness_Counter/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth] /home/manny/Fitness_Counter/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /home/manny/Fitness_Counter/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /home/manny/Fitness_Counter/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.9] /home/manny/.gradle/caches/transforms-2/files-2.1/477db73bc9e2d61dfc1fcb4cbc0960d6/jetified-firebase-core-16.0.9/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.9] /home/manny/.gradle/caches/transforms-2/files-2.1/477db73bc9e2d61dfc1fcb4cbc0960d6/jetified-firebase-core-16.0.9/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/772d715f787f9489f1ba51d302d4d6ed/jetified-firebase-analytics-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/772d715f787f9489f1ba51d302d4d6ed/jetified-firebase-analytics-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth:19.1.0] /home/manny/.gradle/caches/transforms-2/files-2.1/7becfd90ea784f1f3978851fa86ba8b0/jetified-firebase-auth-19.1.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:19.1.0] /home/manny/.gradle/caches/transforms-2/files-2.1/7becfd90ea784f1f3978851fa86ba8b0/jetified-firebase-auth-19.1.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-firestore:21.1.1] /home/manny/.gradle/caches/transforms-2/files-2.1/ca151ccf3611fb335aa617ee53c36a69/jetified-firebase-firestore-21.1.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-firestore:21.1.1] /home/manny/.gradle/caches/transforms-2/files-2.1/ca151ccf3611fb335aa617ee53c36a69/jetified-firebase-firestore-21.1.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-storage:17.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/50b06f67dc82bbf4a9c53c764ac0f5ca/jetified-firebase-storage-17.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-storage:17.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/50b06f67dc82bbf4a9c53c764ac0f5ca/jetified-firebase-storage-17.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/9693c7d8fd133d3bcfc5c1c6c9cf2fa6/jetified-firebase-auth-interop-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/9693c7d8fd133d3bcfc5c1c6c9cf2fa6/jetified-firebase-auth-interop-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/2514f5d9d1c5b508f57e9d6151bba06f/jetified-play-services-measurement-api-17.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/2514f5d9d1c5b508f57e9d6151bba06f/jetified-play-services-measurement-api-17.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/97f103996ce5e1292e3e483096399963/jetified-firebase-iid-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/97f103996ce5e1292e3e483096399963/jetified-firebase-iid-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/3840d27ff2141a01ea6fee85399ab31b/jetified-firebase-iid-interop-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/3840d27ff2141a01ea6fee85399ab31b/jetified-firebase-iid-interop-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/manny/.gradle/caches/transforms-2/files-2.1/5840b6039b1536d6590cf6be0bd78929/jetified-play-services-base-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/manny/.gradle/caches/transforms-2/files-2.1/5840b6039b1536d6590cf6be0bd78929/jetified-play-services-base-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/9db386b1a2a2209ff7be9c6cc5a2652e/jetified-play-services-measurement-17.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/9db386b1a2a2209ff7be9c6cc5a2652e/jetified-play-services-measurement-17.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/cd3ac01083e50bf9780b6933466381e9/jetified-play-services-measurement-sdk-17.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/cd3ac01083e50bf9780b6933466381e9/jetified-play-services-measurement-sdk-17.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:19.1.0] /home/manny/.gradle/caches/transforms-2/files-2.1/7bb90ac2970290836e21fd40b5e99f37/jetified-firebase-common-19.1.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:19.1.0] /home/manny/.gradle/caches/transforms-2/files-2.1/7bb90ac2970290836e21fd40b5e99f37/jetified-firebase-common-19.1.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/183775cc7d6635ee23e3c3483ed7c74f/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/183775cc7d6635ee23e3c3483ed7c74f/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/c5625856de3f5d73d5941044b228c99e/jetified-play-services-measurement-impl-17.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/c5625856de3f5d73d5941044b228c99e/jetified-play-services-measurement-impl-17.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/9f2228e95b3f4ec6013479e5d007febb/jetified-play-services-measurement-sdk-api-17.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/9f2228e95b3f4ec6013479e5d007febb/jetified-play-services-measurement-sdk-api-17.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/bc2391d085370fb6e6d1364888347796/jetified-play-services-measurement-base-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/bc2391d085370fb6e6d1364888347796/jetified-play-services-measurement-base-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/70a58345584e6bdfff9ea93515ed1d66/jetified-play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/70a58345584e6bdfff9ea93515ed1d66/jetified-play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/00e46e8e5f87d897a696a86811129013/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/00e46e8e5f87d897a696a86811129013/jetified-firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/7795527ad41381165d3c9420edaeba52/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/7795527ad41381165d3c9420edaeba52/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/167339e2ba02c9c5a0daa81c8e80f41b/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/167339e2ba02c9c5a0daa81c8e80f41b/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] /home/manny/.gradle/caches/transforms-2/files-2.1/bac315487d01089f44432578692c28d4/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /home/manny/.gradle/caches/transforms-2/files-2.1/bac315487d01089f44432578692c28d4/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/11a7becc5f336af19d396af6081a0386/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/11a7becc5f336af19d396af6081a0386/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/f1be59ab51e8ba3fe8888016394c7572/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/f1be59ab51e8ba3fe8888016394c7572/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/f86b433f93a2ebef8723340897840530/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/f86b433f93a2ebef8723340897840530/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/c5113ad925ec73a1f11707b007fc98d7/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/c5113ad925ec73a1f11707b007fc98d7/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/580a15bf503a8397e40a265464f43858/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/580a15bf503a8397e40a265464f43858/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.2] /home/manny/.gradle/caches/transforms-2/files-2.1/db5a00aa6030abe9341262404fc79860/core-1.0.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.2] /home/manny/.gradle/caches/transforms-2/files-2.1/db5a00aa6030abe9341262404fc79860/core-1.0.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/e1ebdc9c32d8a739204cfc07136f38b8/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/e1ebdc9c32d8a739204cfc07136f38b8/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/22824d09d2b52bc37a903c06e63daf51/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/22824d09d2b52bc37a903c06e63daf51/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/9e1bb22658d342cfc5c04af1753c8404/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/9e1bb22658d342cfc5c04af1753c8404/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/c1fc29ce20e532a0694cf2e2540875cd/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/c1fc29ce20e532a0694cf2e2540875cd/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/2581817fba38f3792bd4b202966ec6c9/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/2581817fba38f3792bd4b202966ec6c9/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/aa2d82512c6c408b584ed6b6bae25026/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/aa2d82512c6c408b584ed6b6bae25026/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/512cf769ae2eda5dd1870e92aba695df/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/512cf769ae2eda5dd1870e92aba695df/versionedparcelable-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/manny/.gradle/caches/transforms-2/files-2.1/b7082ad32ecae58030f165488b16c053/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/manny/.gradle/caches/transforms-2/files-2.1/b7082ad32ecae58030f165488b16c053/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/38c074a38e6839c99369d5f5602a7562/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/38c074a38e6839c99369d5f5602a7562/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/fe874501aaaec783c96730efda62c93b/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/fe874501aaaec783c96730efda62c93b/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/19450daaf9d04f67a67a81fa89861c97/jetified-firebase-database-collection-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/19450daaf9d04f67a67a81fa89861c97/jetified-firebase-database-collection-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/c2415055e31cae6a1cedde111c52e6b0/jetified-protolite-well-known-types-17.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/c2415055e31cae6a1cedde111c52e6b0/jetified-protolite-well-known-types-17.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.21.0] /home/manny/.gradle/caches/transforms-2/files-2.1/1451e179d70836c8c0a0703471d9e8c3/jetified-grpc-android-1.21.0/AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.21.0] /home/manny/.gradle/caches/transforms-2/files-2.1/1451e179d70836c8c0a0703471d9e8c3/jetified-grpc-android-1.21.0/AndroidManifest.xml:7:5-9:41
+MERGED from [org.tensorflow:tensorflow-lite:2.3.0] /home/manny/.gradle/caches/transforms-2/files-2.1/2f3dd7b5869db6f54941a961a9ba1290/jetified-tensorflow-lite-2.3.0/AndroidManifest.xml:7:5-8:41
+MERGED from [org.tensorflow:tensorflow-lite:2.3.0] /home/manny/.gradle/caches/transforms-2/files-2.1/2f3dd7b5869db6f54941a961a9ba1290/jetified-tensorflow-lite-2.3.0/AndroidManifest.xml:7:5-8:41
+INJECTED from /home/manny/Fitness_Counter/android/app/src/debug/AndroidManifest.xml
+INJECTED from /home/manny/Fitness_Counter/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/manny/Fitness_Counter/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/manny/Fitness_Counter/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/manny/Fitness_Counter/android/app/src/main/AndroidManifest.xml
+		MERGED from /home/manny/Fitness_Counter/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /home/manny/Fitness_Counter/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /home/manny/Fitness_Counter/android/app/src/debug/AndroidManifest.xml:6:5-66
+MERGED from [com.google.firebase:firebase-firestore:21.1.1] /home/manny/.gradle/caches/transforms-2/files-2.1/ca151ccf3611fb335aa617ee53c36a69/jetified-firebase-firestore-21.1.1/AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-firestore:21.1.1] /home/manny/.gradle/caches/transforms-2/files-2.1/ca151ccf3611fb335aa617ee53c36a69/jetified-firebase-firestore-21.1.1/AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-storage:17.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/50b06f67dc82bbf4a9c53c764ac0f5ca/jetified-firebase-storage-17.0.0/AndroidManifest.xml:27:5-67
+MERGED from [com.google.firebase:firebase-storage:17.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/50b06f67dc82bbf4a9c53c764ac0f5ca/jetified-firebase-storage-17.0.0/AndroidManifest.xml:27:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/2514f5d9d1c5b508f57e9d6151bba06f/jetified-play-services-measurement-api-17.2.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/2514f5d9d1c5b508f57e9d6151bba06f/jetified-play-services-measurement-api-17.2.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/97f103996ce5e1292e3e483096399963/jetified-firebase-iid-19.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/97f103996ce5e1292e3e483096399963/jetified-firebase-iid-19.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/9db386b1a2a2209ff7be9c6cc5a2652e/jetified-play-services-measurement-17.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/9db386b1a2a2209ff7be9c6cc5a2652e/jetified-play-services-measurement-17.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/c5625856de3f5d73d5941044b228c99e/jetified-play-services-measurement-impl-17.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/c5625856de3f5d73d5941044b228c99e/jetified-play-services-measurement-impl-17.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/9f2228e95b3f4ec6013479e5d007febb/jetified-play-services-measurement-sdk-api-17.2.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/9f2228e95b3f4ec6013479e5d007febb/jetified-play-services-measurement-sdk-api-17.2.0/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /home/manny/Fitness_Counter/android/app/src/debug/AndroidManifest.xml:6:22-64
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:firebase_storage] /home/manny/Fitness_Counter/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:cloud_firestore] /home/manny/Fitness_Counter/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:cloud_firestore] /home/manny/Fitness_Counter/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_auth] /home/manny/Fitness_Counter/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_auth] /home/manny/Fitness_Counter/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /home/manny/Fitness_Counter/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /home/manny/Fitness_Counter/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [com.google.firebase:firebase-auth:19.1.0] /home/manny/.gradle/caches/transforms-2/files-2.1/7becfd90ea784f1f3978851fa86ba8b0/jetified-firebase-auth-19.1.0/AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-auth:19.1.0] /home/manny/.gradle/caches/transforms-2/files-2.1/7becfd90ea784f1f3978851fa86ba8b0/jetified-firebase-auth-19.1.0/AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-firestore:21.1.1] /home/manny/.gradle/caches/transforms-2/files-2.1/ca151ccf3611fb335aa617ee53c36a69/jetified-firebase-firestore-21.1.1/AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:21.1.1] /home/manny/.gradle/caches/transforms-2/files-2.1/ca151ccf3611fb335aa617ee53c36a69/jetified-firebase-firestore-21.1.1/AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-storage:17.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/50b06f67dc82bbf4a9c53c764ac0f5ca/jetified-firebase-storage-17.0.0/AndroidManifest.xml:30:9-34:19
+MERGED from [com.google.firebase:firebase-storage:17.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/50b06f67dc82bbf4a9c53c764ac0f5ca/jetified-firebase-storage-17.0.0/AndroidManifest.xml:30:9-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/2514f5d9d1c5b508f57e9d6151bba06f/jetified-play-services-measurement-api-17.2.0/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/2514f5d9d1c5b508f57e9d6151bba06f/jetified-play-services-measurement-api-17.2.0/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/97f103996ce5e1292e3e483096399963/jetified-firebase-iid-19.0.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/97f103996ce5e1292e3e483096399963/jetified-firebase-iid-19.0.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-common:19.1.0] /home/manny/.gradle/caches/transforms-2/files-2.1/7bb90ac2970290836e21fd40b5e99f37/jetified-firebase-common-19.1.0/AndroidManifest.xml:12:9-15:40
+MERGED from [com.google.firebase:firebase-common:19.1.0] /home/manny/.gradle/caches/transforms-2/files-2.1/7bb90ac2970290836e21fd40b5e99f37/jetified-firebase-common-19.1.0/AndroidManifest.xml:12:9-15:40
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:19.1.0] /home/manny/.gradle/caches/transforms-2/files-2.1/7becfd90ea784f1f3978851fa86ba8b0/jetified-firebase-auth-19.1.0/AndroidManifest.xml:35:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.1.0] /home/manny/.gradle/caches/transforms-2/files-2.1/7bb90ac2970290836e21fd40b5e99f37/jetified-firebase-common-19.1.0/AndroidManifest.xml:14:13-43
+	android:name
+		ADDED from [:firebase_storage] /home/manny/Fitness_Counter/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_storage] /home/manny/Fitness_Counter/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_storage] /home/manny/Fitness_Counter/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_storage] /home/manny/Fitness_Counter/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-126
+uses-permission#android.permission.CAMERA
+ADDED from [:camera] /home/manny/Fitness_Counter/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-65
+	android:name
+		ADDED from [:camera] /home/manny/Fitness_Counter/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from [:camera] /home/manny/Fitness_Counter/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-71
+	android:name
+		ADDED from [:camera] /home/manny/Fitness_Counter/build/camera/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-68
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.cloudfirestore.FlutterFirebaseAppRegistrar
+ADDED from [:cloud_firestore] /home/manny/Fitness_Counter/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:cloud_firestore] /home/manny/Fitness_Counter/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:cloud_firestore] /home/manny/Fitness_Counter/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-133
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [:image_picker] /home/manny/Fitness_Counter/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from [:image_picker] /home/manny/Fitness_Counter/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [:image_picker] /home/manny/Fitness_Counter/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from [:image_picker] /home/manny/Fitness_Counter/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-78
+provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
+ADDED from [:image_picker] /home/manny/Fitness_Counter/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-19:20
+	android:grantUriPermissions
+		ADDED from [:image_picker] /home/manny/Fitness_Counter/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-47
+	android:authorities
+		ADDED from [:image_picker] /home/manny/Fitness_Counter/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-74
+	android:exported
+		ADDED from [:image_picker] /home/manny/Fitness_Counter/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
+	android:name
+		ADDED from [:image_picker] /home/manny/Fitness_Counter/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-82
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:image_picker] /home/manny/Fitness_Counter/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:75
+	android:resource
+		ADDED from [:image_picker] /home/manny/Fitness_Counter/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-72
+	android:name
+		ADDED from [:image_picker] /home/manny/Fitness_Counter/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-67
+meta-data#com.google.firebase.components:io.flutter.plugins.firebaseauth.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_auth] /home/manny/Fitness_Counter/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_auth] /home/manny/Fitness_Counter/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_auth] /home/manny/Fitness_Counter/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-122
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_core] /home/manny/Fitness_Counter/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_core] /home/manny/Fitness_Counter/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_core] /home/manny/Fitness_Counter/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-123
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:19.1.0] /home/manny/.gradle/caches/transforms-2/files-2.1/7becfd90ea784f1f3978851fa86ba8b0/jetified-firebase-auth-19.1.0/AndroidManifest.xml:24:9-31:50
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:19.1.0] /home/manny/.gradle/caches/transforms-2/files-2.1/7becfd90ea784f1f3978851fa86ba8b0/jetified-firebase-auth-19.1.0/AndroidManifest.xml:26:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:19.1.0] /home/manny/.gradle/caches/transforms-2/files-2.1/7becfd90ea784f1f3978851fa86ba8b0/jetified-firebase-auth-19.1.0/AndroidManifest.xml:28:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:19.1.0] /home/manny/.gradle/caches/transforms-2/files-2.1/7becfd90ea784f1f3978851fa86ba8b0/jetified-firebase-auth-19.1.0/AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:19.1.0] /home/manny/.gradle/caches/transforms-2/files-2.1/7becfd90ea784f1f3978851fa86ba8b0/jetified-firebase-auth-19.1.0/AndroidManifest.xml:29:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:19.1.0] /home/manny/.gradle/caches/transforms-2/files-2.1/7becfd90ea784f1f3978851fa86ba8b0/jetified-firebase-auth-19.1.0/AndroidManifest.xml:30:13-72
+	tools:replace
+		ADDED from [com.google.firebase:firebase-auth:19.1.0] /home/manny/.gradle/caches/transforms-2/files-2.1/7becfd90ea784f1f3978851fa86ba8b0/jetified-firebase-auth-19.1.0/AndroidManifest.xml:31:13-47
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:19.1.0] /home/manny/.gradle/caches/transforms-2/files-2.1/7becfd90ea784f1f3978851fa86ba8b0/jetified-firebase-auth-19.1.0/AndroidManifest.xml:25:13-85
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:19.1.0] /home/manny/.gradle/caches/transforms-2/files-2.1/7becfd90ea784f1f3978851fa86ba8b0/jetified-firebase-auth-19.1.0/AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:19.1.0] /home/manny/.gradle/caches/transforms-2/files-2.1/7becfd90ea784f1f3978851fa86ba8b0/jetified-firebase-auth-19.1.0/AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:19.1.0] /home/manny/.gradle/caches/transforms-2/files-2.1/7becfd90ea784f1f3978851fa86ba8b0/jetified-firebase-auth-19.1.0/AndroidManifest.xml:37:17-109
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-firestore:21.1.1] /home/manny/.gradle/caches/transforms-2/files-2.1/ca151ccf3611fb335aa617ee53c36a69/jetified-firebase-firestore-21.1.1/AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-storage:17.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/50b06f67dc82bbf4a9c53c764ac0f5ca/jetified-firebase-storage-17.0.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-storage:17.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/50b06f67dc82bbf4a9c53c764ac0f5ca/jetified-firebase-storage-17.0.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/2514f5d9d1c5b508f57e9d6151bba06f/jetified-play-services-measurement-api-17.2.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/2514f5d9d1c5b508f57e9d6151bba06f/jetified-play-services-measurement-api-17.2.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/97f103996ce5e1292e3e483096399963/jetified-firebase-iid-19.0.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/97f103996ce5e1292e3e483096399963/jetified-firebase-iid-19.0.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/9db386b1a2a2209ff7be9c6cc5a2652e/jetified-play-services-measurement-17.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/9db386b1a2a2209ff7be9c6cc5a2652e/jetified-play-services-measurement-17.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/c5625856de3f5d73d5941044b228c99e/jetified-play-services-measurement-impl-17.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/c5625856de3f5d73d5941044b228c99e/jetified-play-services-measurement-impl-17.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/9f2228e95b3f4ec6013479e5d007febb/jetified-play-services-measurement-sdk-api-17.2.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/9f2228e95b3f4ec6013479e5d007febb/jetified-play-services-measurement-sdk-api-17.2.0/AndroidManifest.xml:24:5-79
+MERGED from [io.grpc:grpc-android:1.21.0] /home/manny/.gradle/caches/transforms-2/files-2.1/1451e179d70836c8c0a0703471d9e8c3/jetified-grpc-android-1.21.0/AndroidManifest.xml:11:5-79
+MERGED from [io.grpc:grpc-android:1.21.0] /home/manny/.gradle/caches/transforms-2/files-2.1/1451e179d70836c8c0a0703471d9e8c3/jetified-grpc-android-1.21.0/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:21.1.1] /home/manny/.gradle/caches/transforms-2/files-2.1/ca151ccf3611fb335aa617ee53c36a69/jetified-firebase-firestore-21.1.1/AndroidManifest.xml:13:22-76
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:21.1.1] /home/manny/.gradle/caches/transforms-2/files-2.1/ca151ccf3611fb335aa617ee53c36a69/jetified-firebase-firestore-21.1.1/AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:21.1.1] /home/manny/.gradle/caches/transforms-2/files-2.1/ca151ccf3611fb335aa617ee53c36a69/jetified-firebase-firestore-21.1.1/AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:21.1.1] /home/manny/.gradle/caches/transforms-2/files-2.1/ca151ccf3611fb335aa617ee53c36a69/jetified-firebase-firestore-21.1.1/AndroidManifest.xml:21:17-111
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:17.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/50b06f67dc82bbf4a9c53c764ac0f5ca/jetified-firebase-storage-17.0.0/AndroidManifest.xml:31:13-33:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:17.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/50b06f67dc82bbf4a9c53c764ac0f5ca/jetified-firebase-storage-17.0.0/AndroidManifest.xml:33:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:17.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/50b06f67dc82bbf4a9c53c764ac0f5ca/jetified-firebase-storage-17.0.0/AndroidManifest.xml:32:17-107
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement-api:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/2514f5d9d1c5b508f57e9d6151bba06f/jetified-play-services-measurement-api-17.2.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/97f103996ce5e1292e3e483096399963/jetified-firebase-iid-19.0.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/97f103996ce5e1292e3e483096399963/jetified-firebase-iid-19.0.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/9db386b1a2a2209ff7be9c6cc5a2652e/jetified-play-services-measurement-17.2.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/9db386b1a2a2209ff7be9c6cc5a2652e/jetified-play-services-measurement-17.2.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/c5625856de3f5d73d5941044b228c99e/jetified-play-services-measurement-impl-17.2.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/c5625856de3f5d73d5941044b228c99e/jetified-play-services-measurement-impl-17.2.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/9f2228e95b3f4ec6013479e5d007febb/jetified-play-services-measurement-sdk-api-17.2.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/9f2228e95b3f4ec6013479e5d007febb/jetified-play-services-measurement-sdk-api-17.2.0/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/2514f5d9d1c5b508f57e9d6151bba06f/jetified-play-services-measurement-api-17.2.0/AndroidManifest.xml:24:22-65
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/2514f5d9d1c5b508f57e9d6151bba06f/jetified-play-services-measurement-api-17.2.0/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/2514f5d9d1c5b508f57e9d6151bba06f/jetified-play-services-measurement-api-17.2.0/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/2514f5d9d1c5b508f57e9d6151bba06f/jetified-play-services-measurement-api-17.2.0/AndroidManifest.xml:31:17-139
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/97f103996ce5e1292e3e483096399963/jetified-firebase-iid-19.0.0/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/97f103996ce5e1292e3e483096399963/jetified-firebase-iid-19.0.0/AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/97f103996ce5e1292e3e483096399963/jetified-firebase-iid-19.0.0/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/97f103996ce5e1292e3e483096399963/jetified-firebase-iid-19.0.0/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/97f103996ce5e1292e3e483096399963/jetified-firebase-iid-19.0.0/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/97f103996ce5e1292e3e483096399963/jetified-firebase-iid-19.0.0/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/97f103996ce5e1292e3e483096399963/jetified-firebase-iid-19.0.0/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/97f103996ce5e1292e3e483096399963/jetified-firebase-iid-19.0.0/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/97f103996ce5e1292e3e483096399963/jetified-firebase-iid-19.0.0/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/97f103996ce5e1292e3e483096399963/jetified-firebase-iid-19.0.0/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/97f103996ce5e1292e3e483096399963/jetified-firebase-iid-19.0.0/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/97f103996ce5e1292e3e483096399963/jetified-firebase-iid-19.0.0/AndroidManifest.xml:42:25-78
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.1.0] /home/manny/.gradle/caches/transforms-2/files-2.1/5840b6039b1536d6590cf6be0bd78929/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /home/manny/.gradle/caches/transforms-2/files-2.1/5840b6039b1536d6590cf6be0bd78929/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /home/manny/.gradle/caches/transforms-2/files-2.1/5840b6039b1536d6590cf6be0bd78929/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /home/manny/.gradle/caches/transforms-2/files-2.1/5840b6039b1536d6590cf6be0bd78929/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/9db386b1a2a2209ff7be9c6cc5a2652e/jetified-play-services-measurement-17.2.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/c5625856de3f5d73d5941044b228c99e/jetified-play-services-measurement-impl-17.2.0/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/c5625856de3f5d73d5941044b228c99e/jetified-play-services-measurement-impl-17.2.0/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/9db386b1a2a2209ff7be9c6cc5a2652e/jetified-play-services-measurement-17.2.0/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/9db386b1a2a2209ff7be9c6cc5a2652e/jetified-play-services-measurement-17.2.0/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/9db386b1a2a2209ff7be9c6cc5a2652e/jetified-play-services-measurement-17.2.0/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/9db386b1a2a2209ff7be9c6cc5a2652e/jetified-play-services-measurement-17.2.0/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/9db386b1a2a2209ff7be9c6cc5a2652e/jetified-play-services-measurement-17.2.0/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/9db386b1a2a2209ff7be9c6cc5a2652e/jetified-play-services-measurement-17.2.0/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/c5625856de3f5d73d5941044b228c99e/jetified-play-services-measurement-impl-17.2.0/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/c5625856de3f5d73d5941044b228c99e/jetified-play-services-measurement-impl-17.2.0/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/9db386b1a2a2209ff7be9c6cc5a2652e/jetified-play-services-measurement-17.2.0/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/9db386b1a2a2209ff7be9c6cc5a2652e/jetified-play-services-measurement-17.2.0/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/9db386b1a2a2209ff7be9c6cc5a2652e/jetified-play-services-measurement-17.2.0/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/9db386b1a2a2209ff7be9c6cc5a2652e/jetified-play-services-measurement-17.2.0/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/9db386b1a2a2209ff7be9c6cc5a2652e/jetified-play-services-measurement-17.2.0/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/9db386b1a2a2209ff7be9c6cc5a2652e/jetified-play-services-measurement-17.2.0/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/9db386b1a2a2209ff7be9c6cc5a2652e/jetified-play-services-measurement-17.2.0/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/9db386b1a2a2209ff7be9c6cc5a2652e/jetified-play-services-measurement-17.2.0/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/9db386b1a2a2209ff7be9c6cc5a2652e/jetified-play-services-measurement-17.2.0/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/9db386b1a2a2209ff7be9c6cc5a2652e/jetified-play-services-measurement-17.2.0/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/9db386b1a2a2209ff7be9c6cc5a2652e/jetified-play-services-measurement-17.2.0/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/9db386b1a2a2209ff7be9c6cc5a2652e/jetified-play-services-measurement-17.2.0/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/9db386b1a2a2209ff7be9c6cc5a2652e/jetified-play-services-measurement-17.2.0/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/9db386b1a2a2209ff7be9c6cc5a2652e/jetified-play-services-measurement-17.2.0/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/9db386b1a2a2209ff7be9c6cc5a2652e/jetified-play-services-measurement-17.2.0/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.0] /home/manny/.gradle/caches/transforms-2/files-2.1/9db386b1a2a2209ff7be9c6cc5a2652e/jetified-play-services-measurement-17.2.0/AndroidManifest.xml:49:13-87
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.1.0] /home/manny/.gradle/caches/transforms-2/files-2.1/7bb90ac2970290836e21fd40b5e99f37/jetified-firebase-common-19.1.0/AndroidManifest.xml:17:9-21:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.1.0] /home/manny/.gradle/caches/transforms-2/files-2.1/7bb90ac2970290836e21fd40b5e99f37/jetified-firebase-common-19.1.0/AndroidManifest.xml:19:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.1.0] /home/manny/.gradle/caches/transforms-2/files-2.1/7bb90ac2970290836e21fd40b5e99f37/jetified-firebase-common-19.1.0/AndroidManifest.xml:20:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.1.0] /home/manny/.gradle/caches/transforms-2/files-2.1/7bb90ac2970290836e21fd40b5e99f37/jetified-firebase-common-19.1.0/AndroidManifest.xml:21:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.1.0] /home/manny/.gradle/caches/transforms-2/files-2.1/7bb90ac2970290836e21fd40b5e99f37/jetified-firebase-common-19.1.0/AndroidManifest.xml:18:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/167339e2ba02c9c5a0daa81c8e80f41b/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/167339e2ba02c9c5a0daa81c8e80f41b/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/manny/.gradle/caches/transforms-2/files-2.1/167339e2ba02c9c5a0daa81c8e80f41b/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58

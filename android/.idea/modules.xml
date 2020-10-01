@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/android.iml" filepath="$PROJECT_DIR$/.idea/modules/android.iml" group="android" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="android/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1876766799/camera.iml" filepath="$PROJECT_DIR$/.idea/modules/1876766799/camera.iml" group="android/camera" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1609834925/cloud_firestore.iml" filepath="$PROJECT_DIR$/.idea/modules/-1609834925/cloud_firestore.iml" group="android/cloud_firestore" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1762631891/firebase_auth.iml" filepath="$PROJECT_DIR$/.idea/modules/-1762631891/firebase_auth.iml" group="android/firebase_auth" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1988659453/firebase_core.iml" filepath="$PROJECT_DIR$/.idea/modules/1988659453/firebase_core.iml" group="android/firebase_core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1569776838/firebase_storage.iml" filepath="$PROJECT_DIR$/.idea/modules/1569776838/firebase_storage.iml" group="android/firebase_storage" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-76303538/flutter_tts.iml" filepath="$PROJECT_DIR$/.idea/modules/-76303538/flutter_tts.iml" group="android/flutter_tts" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1752692297/image_picker.iml" filepath="$PROJECT_DIR$/.idea/modules/-1752692297/image_picker.iml" group="android/image_picker" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1669646409/shared_preferences.iml" filepath="$PROJECT_DIR$/.idea/modules/1669646409/shared_preferences.iml" group="android/shared_preferences" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-229443425/tflite.iml" filepath="$PROJECT_DIR$/.idea/modules/-229443425/tflite.iml" group="android/tflite" />
+    </modules>
+  </component>
+</project>
